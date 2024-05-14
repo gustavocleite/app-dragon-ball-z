@@ -8,12 +8,12 @@ import { CharactersService } from '../characters.service';
   styleUrl: './characters-list.component.scss'
 })
 export class CharactersListComponent {
-  characters: Character[] = []; // Use Character[] como o tipo de characters
+  characters: Character[] = [];
 
   constructor(private characterService: CharactersService) { }
 
   ngOnInit(): void {
-    this.characterService.getCharacters().subscribe((data: Characters) => { // Tipando data como Characters
+    this.characterService.getCharacters().subscribe((data: Characters) => {
       this.characters = data.items;
     });
   }

@@ -1,0 +1,9 @@
+
+<div class="planet-container">
+  <div class="planet-card" *ngFor="let planet of planets">
+    <h2>Nome: {{ planet.name }}</h2>
+    <p>Destruido? {{ planet.isDestroyed }}</p>
+    <p>Desgrição: {{ planet.description }}</p>
+    <img [src]="planet.image" alt="{{ planet.name }}">
+  </div>
+</div>

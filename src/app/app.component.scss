@@ -1,0 +1,29 @@
+/* characters.component.css */
+header {
+  text-align: center; /* Centraliza o conteúdo do header */
+  background-color: #f2f2f2; /* Cor de fundo do header */
+  padding: 10px 0; /* Adiciona um espaçamento interno superior e inferior */
+}
+
+nav ul {
+  list-style-type: none; /* Remove os marcadores de lista */
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline; /* Exibe os itens de lista em linha */
+  margin-right: 20px; /* Adiciona um espaçamento à direita entre os itens de lista */
+}
+
+nav a {
+  text-decoration: none; /* Remove a decoração do link */
+  color: #333; /* Cor do texto */
+  font-weight: bold; /* Texto em negrito */
+  font-size: 18px; /* Tamanho da fonte */
+  transition: color 0.3s; /* Adiciona uma transição suave para a cor do texto */
+}
+
+nav a:hover {
+  color: #007bff; /* Cor do texto ao passar o mouse */
+}
